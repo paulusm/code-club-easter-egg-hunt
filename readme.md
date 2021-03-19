@@ -6,6 +6,8 @@
 
 In this project, we will search for a hidden Easter egg on in our digitised "garden". This uses feedback from the programme to tell us if we are going in the right direction. If we say "warmer", we are going in the right direction. If we say "colder", we are in the wrong place!
 
+![game shot](images/game1.png)
+
 ## Starter Template
 
 Go to https://trinket.io/python/431a9487cc for the starter project and remix it to save to your Trinkets.
@@ -48,11 +50,12 @@ displayMap(map)
 getCloseness(mypos, egg)
 
 ```
-Run the code a few times and you should see that the temperature varies according to how clsoe the 1 and 2 are - how near you are to the egg.
+Run the code a few times and you should see that the temperature varies according to how close the 1 and 2 are - how near you are to the egg.
 
 Have a look at the code in functions.py that does the closeness. Can you see how it is working?
 
-4. Moving around the garden. We now want to put in some coordinates and move to a new position. This game loop will make that happen:
+4. Moving around the garden. We now want to put in some coordinates and move to a new position. This game loop will make that happen. 
+**Put in the new position as "x,y", for example 3,3**
 
 ```python
 
@@ -77,6 +80,8 @@ while not eggFound:
 
 print("GAME OVER NOM NOM CHOCOLATE!")
 ```
+![game shot 2](images/game2.png)
+
 5. Finally, we don't want to see the egg! So comment that out (will be around line 20 of you code)
 
 ```python
